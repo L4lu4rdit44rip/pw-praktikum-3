@@ -1,0 +1,28 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-color:aqua;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+  background-color:blanchedalmond;
+  align-items: center;
+  width: 100%;
+  height: 110px;
+  padding: 0 10%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.2);
+}
+.Nilaikosong {
+  background-color:brown;
+  color:cyan;
+  font-weight: 500;
+}
+
+tbody td{
+  overflow-x:auto;
+}
